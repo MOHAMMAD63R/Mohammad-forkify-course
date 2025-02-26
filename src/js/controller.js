@@ -97,6 +97,7 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResult);
   paginationVi.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpdate(controlAddRecipe);
+  console.log('dfkdjik');
 };
 init();
 
