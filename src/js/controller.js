@@ -90,6 +90,7 @@ const controlAddRecipe = async function (newRecipe) {
 };
 
 const init = function () {
+  console.log('dfkdjik');
   bookmarkView.addHandlerRender(controlBookmark);
   recipeView.addHandlerRender(controlRecipes);
   recipeView.addHandlerUpdateServings(controlServing);
@@ -97,7 +98,6 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResult);
   paginationVi.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpdate(controlAddRecipe);
-  console.log('dfkdjik');
 };
 init();
 
